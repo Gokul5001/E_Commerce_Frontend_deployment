@@ -11,7 +11,7 @@ import TermsAndConditions from "./Components/TermsAndConditions";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
 import Footer from './Components/Footer';
 import CartPage from './CartPage';
-import Checkout from './Components/checkout';
+import Checkout from './Components/Checkout';
 
 
 
@@ -46,9 +46,7 @@ function MainApp() {
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/checkout" element={<Checkout />} />
-        
-
-
+      
 
       </Routes>
       <Footer />
